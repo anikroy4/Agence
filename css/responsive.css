@@ -1,0 +1,83 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    .navbar {
+        top: 0;
+        padding: 13px;
+    }
+    .navbar .navbar-nav {
+        column-gap: 15px;
+    }
+
+   .navbar-toggler {
+        border: 0;
+    
+   }
+
+   .navbar-toggler:focus {
+        box-shadow: none;
+        color: #0f89c6 ;
+   }
+
+
+    .navbar-collapse{
+        border-radius: 20px;
+        padding: 10px;
+        text-align: end;
+    }
+   
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+        padding-right: 14px;
+    }
+    
+    .navbar form{
+        justify-content: center;
+       
+    }
+    .navbar .nav_btn{
+        justify-content: center;
+        padding: 11px 30px;
+        border-radius: 16px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 23px;
+        margin-top: 9px;
+    }
+ /* =================== */
+ /* =================== */
+    #banner_part .overlay h1 {
+        font-size: 36px;
+        padding-top: 11px;
+        width: auto;
+    }
+    #banner_part .overlay .container .banner_details {
+        font-size: 14px;
+        line-height: 20px;
+        width: auto;
+        padding: 46px 0 50px;
+    }
+
+    .banner_main_slider ul li button {
+        height: 15px;
+        width: 15px;
+        border: 1.5px solid #4758DF;
+    }
+
+    #banner_part .overlay {
+      
+        padding: 225px 0 0;
+    }
+  /* ====================== */
+  /* ====================== */
+    .success_part {
+        padding-top: 70px;
+    }
+
+
+}

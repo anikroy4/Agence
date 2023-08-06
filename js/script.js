@@ -1,7 +1,9 @@
 $('.banner_main_slider').slick({
     arrows: false,
-    dots: true
+    dots: true,
+    autoplay:false
 });
+
 $('.main_slide').slick({
     arrows: true,
     infinite: true,

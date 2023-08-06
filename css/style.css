@@ -99,9 +99,33 @@ color:#4756DF;
 /*=============------------------===========*/
 /*==============------------------==========*/
   
-#banner_part .banner_slider{
+#banner_part .banner_slider_1{
     text-align: center;
-    background-image:url(/Class-14/images/Banner_1.jpg);
+    background-image:url(../images/Banner_1.jpg);
+    background-position: center;
+    height: 896px;
+    width: 1600px;
+    background-repeat: no-repeat;
+}
+#banner_part .banner_slider_2{
+    text-align: center;
+    background-image:url(../images/banner_2.png);
+    background-position: center;
+    height: 896px;
+    width: 1600px;
+    background-repeat: no-repeat;
+}
+#banner_part .banner_slider_3{
+    text-align: center;
+    background-image:url(../images/Banner_1.jpg);
+    background-position: center;
+    height: 896px;
+    width: 1600px;
+    background-repeat: no-repeat;
+}
+#banner_part .banner_slider_4{
+    text-align: center;
+    background-image:url(../images/banner_3.jpg);
     background-position: center;
     height: 896px;
     width: 1600px;
@@ -1332,5 +1356,4 @@ max-width: 1344px ;
     font-weight: 400;
     line-height: 26px;
     margin: 33px 0;
-    
 }

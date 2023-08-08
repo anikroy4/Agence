@@ -51,6 +51,12 @@
     }
  /* =================== */
  /* =================== */
+    #banner_part .banner_slider_1,
+    #banner_part .banner_slider_2, 
+    #banner_part .banner_slider_3,
+    #banner_part .banner_slider_4{
+	    height:687px;
+    }
     #banner_part .overlay h1 {
         font-size: 36px;
         padding-top: 11px;
@@ -60,7 +66,12 @@
         font-size: 14px;
         line-height: 20px;
         width: auto;
-        padding: 46px 0 50px;
+        padding: 28px 0 36px;
+        
+    }
+     
+    .banner_main_slider ul {
+        bottom: 40px;
     }
 
     .banner_main_slider ul li button {
@@ -76,8 +87,132 @@
   /* ====================== */
   /* ====================== */
     .success_part {
-        padding-top: 70px;
+        padding-top: 53px;
     }
+
+    .success_part .container {
+        border-radius: 20px;
+        background: #E0FFF9;
+        padding: 46px 5px 31px 9px;
+    }
+    
+
+    .success_part .container .text h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .success_part .container .text h2 {
+        font-size: 20px;
+        width: auto;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+
+    .success_part .main {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 15px;
+    }
+    
+    .success_part .main .satisfication h4 {
+        font-size: 30px;
+        font-weight: 580;
+    }
+
+    .success_part .main .satisfication p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .success_part .main .rating h4 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .success_part .main .rating p {
+        
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .success_part .main .report h4 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .success_part .main .report p {
+        
+        font-size: 15px;
+        font-weight: 400;
+    }
+ /* ================================= */
+ /* ================================= */
+ /* ================================= */
+    .service_part .title h2 {
+        font-size: 30px;
+        font-weight: 501;
+        padding-top: 56px;
+        padding-bottom: 15px;
+    }
+    .service_part .title p {
+        font-size: 14px;
+        font-weight: 398;
+        line-height: 20px;
+        width: auto;
+        margin-bottom: 24px;
+        padding: 10px;
+    }
+    .service_part .container .row {
+        border-radius: 20px;
+        background: #FFF;
+        row-gap: 15px;
+        margin-bottom: 50px;
+    }
+
+    .service_part .container .row .web_design img {
+        width: auto;
+        height: auto;
+        flex-shrink: 0;
+        margin-top: 41px;
+        margin-bottom: 23.5px;
+        margin-left: 97.92px;
+        margin-right: 86.92px;
+    }
+    .service_part .container .row .web_design h2 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        padding-bottom: 7px;
+    }
+
+    .service_part .container .row .web_design p {
+        color: var(--dark-01, #151515);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        width: auto;
+        padding-bottom: 15px;
+    }
+
+    .service_part .container .row .UI-UX-design img {
+        width: auto;
+        height: auto;
+        margin: 41px 102px 23.34px 102px;
+    }
+
+    .service_part .container .row .UI-UX-design h2 {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }    
+
+
+
+
+
+
+
 
 
 }

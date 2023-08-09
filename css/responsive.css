@@ -25,6 +25,8 @@
         text-align: end;
     }
    
+
+
     .navbar .navbar-nav .nav-item .nav-link {
         padding: 0;
         color: #FFF;
@@ -35,11 +37,15 @@
         line-height: 18px;
         padding-right: 14px;
     }
+
+
     
     .navbar form{
         justify-content: center;
        
     }
+
+
     .navbar .nav_btn{
         justify-content: center;
         padding: 11px 30px;
@@ -49,6 +55,8 @@
         line-height: 23px;
         margin-top: 9px;
     }
+
+
  /* =================== */
  /* =================== */
     #banner_part .banner_slider_1,
@@ -57,11 +65,18 @@
     #banner_part .banner_slider_4{
 	    height:687px;
     }
+
+
+
     #banner_part .overlay h1 {
         font-size: 36px;
         padding-top: 11px;
         width: auto;
     }
+
+
+
+
     #banner_part .overlay .container .banner_details {
         font-size: 14px;
         line-height: 20px;
@@ -70,9 +85,13 @@
         
     }
      
+
+
     .banner_main_slider ul {
         bottom: 40px;
     }
+
+
 
     .banner_main_slider ul li button {
         height: 15px;
@@ -80,15 +99,26 @@
         border: 1.5px solid #4758DF;
     }
 
+
+
     #banner_part .overlay {
       
         padding: 225px 0 0;
     }
+
+
+
   /* ====================== */
   /* ====================== */
-    .success_part {
+   
+  
+  
+  
+  .success_part {
         padding-top: 53px;
     }
+
+
 
     .success_part .container {
         border-radius: 20px;
@@ -97,10 +127,14 @@
     }
     
 
+
+
     .success_part .container .text h3 {
         font-size: 20px;
         text-align: center;
     }
+
+
 
     .success_part .container .text h2 {
         font-size: 20px;
@@ -110,26 +144,35 @@
     }
 
 
+
     .success_part .main {
         flex-direction: column;
         text-align: center;
         row-gap: 15px;
     }
     
+
+
     .success_part .main .satisfication h4 {
         font-size: 30px;
         font-weight: 580;
     }
+
+
 
     .success_part .main .satisfication p {
         font-size: 16px;
         font-weight: 400;
     }
 
+
+
     .success_part .main .rating h4 {
         font-size: 30px;
         font-weight: 500;
     }
+
+
 
     .success_part .main .rating p {
         
@@ -137,24 +180,37 @@
         font-weight: 400;
     }
 
+
+
     .success_part .main .report h4 {
         font-size: 30px;
         font-weight: 500;
     }
+
+
+
     .success_part .main .report p {
         
         font-size: 15px;
         font-weight: 400;
     }
+
+
+
  /* ================================= */
  /* ================================= */
  /* ================================= */
+    
+ 
     .service_part .title h2 {
         font-size: 30px;
         font-weight: 501;
         padding-top: 56px;
         padding-bottom: 15px;
     }
+
+
+
     .service_part .title p {
         font-size: 14px;
         font-weight: 398;
@@ -163,12 +219,17 @@
         margin-bottom: 24px;
         padding: 10px;
     }
+
+
+
     .service_part .container .row {
         border-radius: 20px;
         background: #FFF;
         row-gap: 15px;
         margin-bottom: 50px;
     }
+
+
 
     .service_part .container .row .web_design img {
         width: auto;
@@ -179,12 +240,17 @@
         margin-left: 97.92px;
         margin-right: 86.92px;
     }
+
+
+
     .service_part .container .row .web_design h2 {
         font-size: 18px;
         font-style: normal;
         font-weight: 500;
         padding-bottom: 7px;
     }
+
+
 
     .service_part .container .row .web_design p {
         color: var(--dark-01, #151515);
@@ -195,17 +261,23 @@
         padding-bottom: 15px;
     }
 
+
+
     .service_part .container .row .UI-UX-design img {
         width: auto;
         height: auto;
         margin: 41px 102px 23.34px 102px;
     }
 
+
+
     .service_part .container .row .UI-UX-design h2 {
         font-size: 18px;
         font-weight: 500;
         text-align: center;
-    }    
+    }  
+    
+    
 
 
 

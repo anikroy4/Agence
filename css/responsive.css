@@ -215,7 +215,7 @@
         font-size: 14px;
         font-weight: 398;
         line-height: 20px;
-        width: auto;
+
         margin-bottom: 24px;
         padding: 10px;
     }
@@ -229,16 +229,9 @@
         margin-bottom: 50px;
     }
 
-
-
     .service_part .container .row .web_design img {
-        width: auto;
-        height: auto;
-        flex-shrink: 0;
         margin-top: 41px;
         margin-bottom: 23.5px;
-        margin-left: 97.92px;
-        margin-right: 86.92px;
     }
 
 
@@ -278,8 +271,155 @@
     }  
     
     
+    
+    .service_part .title p{
+        width: 100%;
+    }
 
 
+
+
+
+    /* ====================== */
+    /* ====================== */
+    /* ====================== */
+
+
+    .work_part {
+        padding-bottom: 50px;
+    }
+
+    .work_part .title {
+        padding: 50px 0 36px;
+    }
+
+
+    .work_part .title h2 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+
+    .work_part .title p {
+        width: auto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+        margin-top: 10px;
+        padding: 0 5px;
+    }
+
+
+    .work_part .container .row .col-lg-4 .bg {
+        width: auto;
+    }
+
+
+    .work_part .container .row img {
+        width: 294px !important;
+        height: auto !important;
+        flex-shrink: 0;
+        border-radius: 20px;
+    }
+
+    
+ 
+    .work_part .container .row .Task-Management-App h2 {
+        color: var(--dark-01, #151515);
+        font-size: 15px;
+        font-weight: 500;
+        margin: 20px 0 4px 0;
+    }
+
+
+    .work_part .container .row .Task-Management-App p {
+        width: auto;
+        font-size: 14px;
+        line-height: 17px;
+        margin: 0px auto 26px;
+        padding: 10px;
+    }
+
+
+
+    .work_part .container .row .Saas-Landing-Page-Design h2 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 14px;
+    }
+    .work_part .container .row .Saas-Landing-Page-Design p {
+        width: auto;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 00px auto 24px;
+        padding: 10px;
+    }
+
+    
+
+    .work_part .container .row .App-Design h2 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 14px;
+    }
+
+    .work_part .container .row .App-Design p {
+        width: auto;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0px auto 24px;
+        padding: 10px;
+    }
+
+    .work_part .container .row .Landing-Page-Design h2 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 14px;
+        padding: 10px;
+        
+    }
+
+    .work_part .container .row .Landing-Page-Design p {
+        width: auto;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 0px auto 18px;
+        padding: 10px;
+    }
+    .work_part .container .row .Dashboard-Design h2 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 14px;
+    }
+    
+    .work_part .container .row .Dashboard-Design p {
+        width: auto;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0px auto 18px;
+        padding: 10px;
+    }
+
+    .work_part .container .row .Web-App-Design h2 {
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 14px;
+    }
+
+    .work_part .container .row .Web-App-Design p {
+        width: auto;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px;
+        margin: 0px auto 18px;
+    }
+
+    
+   
 
 
 

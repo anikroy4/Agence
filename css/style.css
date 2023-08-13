@@ -366,6 +366,7 @@ column-gap: 110px;
 
 
 .service_part .title h2{
+text-align: center;
     color: var(--dark-01, #151515);
     font-family: Inter;
     font-size: 45px;
@@ -397,20 +398,21 @@ column-gap: 110px;
     background: #FFF;
     row-gap: 24px;
     margin-bottom:103px;
+    text-align: center;
 
 }
 
 
 
 .service_part .container .row .web_design img{
-    width: 98.664px;
-    height: 80.5px;
+    width: auto;
+    
     flex-shrink: 0;
     margin-top: 80px;
     margin-bottom: 40.5px;
-    margin-left: 162.92px;
-    margin-right: 162.92px;
+    
 }
+
 
 
 
@@ -422,24 +424,24 @@ column-gap: 110px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-bottom:20px ;
+  
 }
 
 
 
-.service_part .container .row .web_design p{
-    color: var(--dark-01, #151515);
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight:400;
-    line-height: 26px;
-    width: 326px;
-    margin: auto;
-    align-items: center;
-    
+.service_part .container .row .web_design p {
+	width: auto;
+	color: var(--dark-03, #737373);
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+    padding: 20px 46.66px 49px;
 }
+
+
 .service_part .container .row .hb{
     transition: all linear 0.4s;
 }
@@ -454,8 +456,8 @@ column-gap: 110px;
 
 
 .service_part .container .row .UI-UX-design{
-    width: 424px;
-    height: 428px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
 }
 
@@ -463,12 +465,12 @@ column-gap: 110px;
 
 
 .service_part .container .row .UI-UX-design img{
-    fill: var(--primary-color, #6A4DF4);width: 98px;
-    height: 81px;
-    flex-shrink: 0;
-    margin: 80px 163px 40.34px  163px;
+    fill: var(--primary-color, #6A4DF4);
+    width: auto;
+    flex-shrink: 0; 
+    margin: 80px auto 40.34px;
 }
-
+ 
 
 
 
@@ -486,27 +488,26 @@ column-gap: 110px;
 
 
 .service_part .container .row .UI-UX-design p{
-    width: 326px;
-    color: var(--dark-03, #737373);
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */
-    padding: 20px 0;
-    margin: 0 auto;
+    width: auto;
+	color: var(--dark-03, #737373);
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+    padding: 20px 46.66px 49px;
 }
 
 
 
 .service_part .container .row .web_development img{
-    width: 91.217px;
-    height: 80.684px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
-    margin: 80px 163.39px;
+    margin: 80px auto;
     text-align: center;
-    margin: 80px 163.39px 40.66px;
+    margin: 80px auto 40.66px;
 }
 
 
@@ -526,7 +527,7 @@ column-gap: 110px;
 
 
 .service_part .container .row .web_development p{
-    width: 326px;
+    width: auto;
     color: var(--dark-03, #737373);
     text-align: center;
     font-family: Inter;
@@ -540,10 +541,10 @@ column-gap: 110px;
 
 
 .service_part .container .row .motion_graphics img{
-    width: 83px;
-    height: 81px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
-    margin: 80px 170px 40.35px;
+    margin: 80px auto 40.35px;
 }
 
 
@@ -563,7 +564,7 @@ column-gap: 110px;
 
 
 .service_part .container .row .motion_graphics p{
-    width: 326px;
+    width: auto;
     color: var(--dark-03, #737373);
     text-align: center;
     font-family: Inter;
@@ -578,10 +579,10 @@ column-gap: 110px;
 
 
 .service_part .container .row .animation img{
-    width: 83px;
-    height: 81px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
-    margin: 80px 170px 40.34px;
+    margin: 80px auto 40.34px;
 }
 
 
@@ -601,7 +602,7 @@ column-gap: 110px;
 
 
 .service_part .container .row .animation p{
-    width: 326px;
+    width: auto;
     color: var(--dark-03, #737373);
     text-align: center;
     font-family: Inter;
@@ -615,10 +616,10 @@ column-gap: 110px;
 
 
 .service_part .container .row .Digital_marketing img{
-    width: 83px;
-    height: 81px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
-    margin: 80px 169.9px  40.34px 178.76px;
+    margin: 80px auto 40.34px ;
 }
 
 
@@ -675,7 +676,7 @@ column-gap: 110px;
 
 
 .work_part .title p{
-    width: 609px;
+    width: auto;
     color: var(--dark-03, #737373);
     text-align: center;
     font-family: Inter;
@@ -690,13 +691,14 @@ column-gap: 110px;
 
 
 .work_part .container{
+    width: auto;
     row-gap: 24px;
     border-radius: 20px;
 }
 
 .work_part .container .row .col-lg-4 .bg{
     border-radius: 20px;
-    width: 424px;
+    width: auto;
     background: white;
 }
 .work_part .container .row .col-lg-4 p{
@@ -705,8 +707,8 @@ column-gap: 110px;
 
 
 .work_part .container .row .Task-Management-App img{
-    width: 424px;
-    height: 311px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
     border-radius: 20px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -728,7 +730,7 @@ column-gap: 110px;
 
 
 .work_part .container .row .Task-Management-App p{
-    width: 340px;
+    width: auto;
     color: var(--dark-03, #737373);
     text-align: center;
     font-family: Inter;
@@ -742,8 +744,8 @@ column-gap: 110px;
 
 
 .work_part .container .row .Saas-Landing-Page-Design img{
-    width: 424px;
-    height: 311px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
     border-radius: 20px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -780,8 +782,8 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 .work_part .container .row .App-Design img{
-    width: 424px;
-    height: 311px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
     border-radius: 20px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -804,7 +806,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 .work_part .container .row .App-Design p{
-    width: 340px;
+    width: auto;
     color: var(--dark-03, #737373);
     text-align: center;
     font-family: Inter;
@@ -838,7 +840,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 .work_part .container .row .Landing-Page-Design p{
-    width: 340px;
+    width: auto;
     color: var(--dark-03, #737373);
     text-align: center;
     font-family: Inter;
@@ -872,7 +874,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 .work_part .container .row .Dashboard-Design p{
-    width: 340px;
+    width: auto;
     color: var(--dark-03, #737373);
     text-align: center;
     font-family: Inter;
@@ -906,7 +908,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 .work_part .container .row .Web-App-Design p{
-    width: 340px;
+    width: auto;
     color: var(--dark-03, #737373);
     text-align: center;
     font-family: Inter;
@@ -932,7 +934,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 #agenc-part .title h2{
-    width: 518px;
+    width: auto;
     margin : 150px auto 20px auto;
 }
 
@@ -946,8 +948,8 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 #agenc-part .container .row .top img{
-    width: 55.94px;
-    height: 64px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
     border: none;
 }
@@ -967,7 +969,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 #agenc-part .container .row .top p{
-    width: 344px;
+    width: auto;
     color: var(--dark-03, #737373);
     font-family: Inter;
     font-size: 16px;
@@ -985,8 +987,8 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 #agenc-part .container .row .top-bottom img{
-    width: 55.94px;
-    height: 64px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
     border: none;
 }
@@ -1006,7 +1008,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 #agenc-part .container .row .top-bottom p{
-    width: 344px;
+    width: auto;
     color: var(--dark-03, #737373);
     font-family: Inter;
     font-size: 16px;
@@ -1025,8 +1027,8 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 #agenc-part .container .row .image{
-    width: 428px;
-    height: 428px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
     border-radius: 20px;
     background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
@@ -1053,7 +1055,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 #slider_part .title p{
-    width: 620px;
+    width: auto;
     color: var(--dark-03, #737373);
     text-align: center;
     font-family: Inter;
@@ -1067,14 +1069,14 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 #slider_part .container{
-max-width: 1344px ;
+    width: auto !important;
 }
 
 
 
 
 #slider_part .container .main_slide .slide{
-    width: 424px;
+    width: auto;
     margin: 0 12px;
     padding: 54px 59px;
     border-radius: 30px;
@@ -1083,7 +1085,7 @@ max-width: 1344px ;
 #slider_part .container .main_slide .slick-center{
     background: #F4EFEF ;
     transform: scale(1.07);
-    width: 424px;
+    width: auto;
     margin: 0 12px;
     padding: 54px 59px;
     border-radius: 30px;
@@ -1190,7 +1192,7 @@ max-width: 1344px ;
 
 
 #form_part .container .row .left .details p{
-    width: 514px ;
+    width: auto ;
     color: var(--dark-03, #7B7B7B);
     font-family: Inter;
     font-size: 16px;
@@ -1202,7 +1204,7 @@ max-width: 1344px ;
 
 #form_part .container .row .left .details .p1{
     margin-top: 10px;
-    width: 526px;
+    width: auto;
     color: var(--dark-03, #737373);
     font-family: Inter;
     font-size: 16px;
@@ -1214,7 +1216,7 @@ max-width: 1344px ;
 
 
 #form_part .container .row .form{
-    width: 536px;
+    width: auto;
     margin-left: auto;
 }
 
@@ -1306,15 +1308,15 @@ max-width: 1344px ;
 
 }
 #footer_part .container .row img{
-    width: 166.119px;
-    height: 42px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
     
 }
 
 
 #footer_part .container .row p{
-    width: 356px;
+    width: auto;
     color: var(--dark-03, #7B7B7B);
     font-family: Inter;
     font-size: 16px;

@@ -4,19 +4,24 @@
         top: 0;
         padding: 13px;
     }
+
+
+
     .navbar .navbar-nav {
         column-gap: 15px;
     }
 
+
+
    .navbar-toggler {
         border: 0;
-    
-   }
+    }
+
 
    .navbar-toggler:focus {
         box-shadow: none;
         color: #0f89c6 ;
-   }
+    }
    
 
     .navbar-collapse{
@@ -46,6 +51,7 @@
     }
 
 
+
     .navbar .nav_btn{
         justify-content: center;
         padding: 11px 30px;
@@ -59,6 +65,8 @@
 
  /* =================== */
  /* =================== */
+
+
     #banner_part .banner_slider_1,
     #banner_part .banner_slider_2, 
     #banner_part .banner_slider_3,
@@ -85,6 +93,7 @@
         
     }
      
+
 
 
     .banner_main_slider ul {
@@ -200,8 +209,8 @@
  /* ================================= */
  /* ================================= */
  /* ================================= */
-    
  
+   
     .service_part .title h2 {
         font-size: 30px;
         font-weight: 501;
@@ -212,10 +221,9 @@
 
 
     .service_part .title p {
+        width: 100%;
         font-size: 14px;
-        font-weight: 398;
         line-height: 20px;
-
         margin-bottom: 24px;
         padding: 10px;
     }
@@ -229,9 +237,11 @@
         margin-bottom: 50px;
     }
 
+
+
     .service_part .container .row .web_design img {
-        margin-top: 41px;
-        margin-bottom: 23.5px;
+        margin-top: 24px;
+        margin-bottom: 17.5px;
     }
 
 
@@ -246,12 +256,12 @@
 
 
     .service_part .container .row .web_design p {
-        color: var(--dark-01, #151515);
+        color: var(--dark-03, #737373);
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
         width: auto;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
     }
 
 
@@ -259,7 +269,7 @@
     .service_part .container .row .UI-UX-design img {
         width: auto;
         height: auto;
-        margin: 41px 102px 23.34px 102px;
+        margin: 41px auto 23.34px
     }
 
 
@@ -268,15 +278,127 @@
         font-size: 18px;
         font-weight: 500;
         text-align: center;
+        padding-bottom: 7px;
     }  
-    
-    
-    
-    .service_part .title p{
-        width: 100%;
+
+
+
+    .service_part .container .row .UI-UX-design p {
+        width: auto;
+        font-weight:400;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px;
     }
 
 
+    
+    .service_part .container .row .web_development img {
+        width: auto;
+        height: auto;
+        flex-shrink: 0;
+        text-align: center;
+        margin: 24px auto 17.5px
+    }
+
+
+
+    .service_part .container .row .web_development h2 {
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 7px;
+
+    }
+   
+
+    .service_part .container .row .web_development p {
+        width: auto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0;
+        padding: 10px;
+    }
+
+
+
+    .service_part .container .row .motion_graphics img {
+        width: auto;
+        height: auto;
+        flex-shrink: 0;
+        margin: 24px auto 17.5px
+    }
+
+
+
+    .service_part .container .row .motion_graphics h2 {
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 7px;
+    }
+
+
+
+    .service_part .container .row .motion_graphics p {
+        width: auto;
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0px auto 6px;
+        padding: 10px;
+        font-weight: 400;
+    }
+
+
+
+    .service_part .container .row .animation img {
+        width: auto;
+        height: auto;
+        margin: 24px auto 17.5px
+    }
+
+
+
+    .service_part .container .row .animation h2 {
+        font-size: 18px;
+        font-weight: 500;
+    
+    }
+
+
+
+    .service_part .container .row .animation p {
+        width: auto;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0px auto 6px;
+        padding:10px
+    }
+
+
+
+    .service_part .container .row .Digital_marketing img {
+        width: auto;
+        height: auto;
+        margin: 24px auto 17.5px;
+    }
+
+
+
+    .service_part .container .row .Digital_marketing h2 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+
+    .service_part .container .row .Digital_marketing p {
+        width: auto;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 14px auto 29px;
+    }
+
+    
 
 
 
@@ -288,10 +410,15 @@
     .work_part {
         padding-bottom: 50px;
     }
+    
+
+
 
     .work_part .title {
         padding: 50px 0 36px;
     }
+
+
 
 
     .work_part .title h2 {
@@ -300,19 +427,24 @@
     }
 
 
+
+
     .work_part .title p {
         width: auto;
         font-size: 14px;
         font-weight: 300;
         line-height: 16px;
         margin-top: 10px;
-        padding: 0 5px;
+        padding: 15px;
     }
+
+   
 
 
     .work_part .container .row .col-lg-4 .bg {
         width: auto;
     }
+
 
 
     .work_part .container .row img {
@@ -323,6 +455,7 @@
     }
 
     
+
  
     .work_part .container .row .Task-Management-App h2 {
         color: var(--dark-01, #151515);
@@ -330,6 +463,8 @@
         font-weight: 500;
         margin: 20px 0 4px 0;
     }
+
+
 
 
     .work_part .container .row .Task-Management-App p {
@@ -342,11 +477,16 @@
 
 
 
+
     .work_part .container .row .Saas-Landing-Page-Design h2 {
         font-size: 17px;
         font-weight: 500;
         margin-top: 14px;
     }
+
+
+
+
     .work_part .container .row .Saas-Landing-Page-Design p {
         width: auto;
         font-size: 14px;
@@ -357,12 +497,16 @@
 
     
 
+
     .work_part .container .row .App-Design h2 {
         font-size: 17px;
         font-weight: 500;
         margin-top: 14px;
     }
 
+
+ 
+    
     .work_part .container .row .App-Design p {
         width: auto;
         font-size: 14px;
@@ -371,6 +515,10 @@
         padding: 10px;
     }
 
+
+
+
+
     .work_part .container .row .Landing-Page-Design h2 {
         font-size: 17px;
         font-weight: 500;
@@ -378,6 +526,9 @@
         padding: 10px;
         
     }
+
+
+
 
     .work_part .container .row .Landing-Page-Design p {
         width: auto;
@@ -390,11 +541,17 @@
         margin: 0px auto 18px;
         padding: 10px;
     }
+
+
+
+
     .work_part .container .row .Dashboard-Design h2 {
         font-size: 17px;
         font-weight: 500;
         margin-top: 14px;
     }
+
+
     
     .work_part .container .row .Dashboard-Design p {
         width: auto;
@@ -404,11 +561,14 @@
         padding: 10px;
     }
 
+
+
     .work_part .container .row .Web-App-Design h2 {
         font-size: 17px;
         font-weight: 500;
         margin-top: 14px;
     }
+
 
     .work_part .container .row .Web-App-Design p {
         width: auto;
@@ -418,11 +578,32 @@
         margin: 0px auto 18px;
     }
 
+
+    /* ================================= */
+   /* =================================== */
+   /* =================================== */
+
+
+
+   #agenc-part .title h2 {
+	width: auto;
+	margin: 50px auto 10px auto;
+    font-size: 22px;
+    font-weight: 500;
+    }
+
+
+
+
+    #agenc-part .title p {
+        width: auto;
+        margin-bottom: 50px;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
     
-   
-
-
-
 
 
 

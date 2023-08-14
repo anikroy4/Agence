@@ -602,9 +602,64 @@
         font-size: 14px;
         line-height: 15px;
     }
+    #agenc-part .container .row {
+        text-align: center;
+    }
 
-    
 
+    #agenc-part .container .row .top h2 {
+        font-size: 19px;
+        font-weight: 500;
+        margin: 14px 6px auto;
+    }
+
+
+    #agenc-part .container .row .top p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    #agenc-part .container .row .top-bottom {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    #agenc-part .container .row .top-bottom h2 {
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        margin: 14px 6px auto;
+    }
+
+    #agenc-part .container .row .top-bottom p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    #agenc-part .container .row .image {
+        width: 100%;
+       
+    }
+
+
+    #slider_part{
+        text-align: center;
+    }
+
+    #slider_part .title h2 {
+        font-size: 22px;
+        margin: 73px auto 12px;
+       
+    }
+    #slider_part .title p {
+        width: auto;
+        font-size: 14px;
+        margin-bottom:0px;
+        padding: 10px;
+    }
 
 
 

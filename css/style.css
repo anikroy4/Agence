@@ -637,7 +637,7 @@ text-align: center;
 
 
 .service_part .container .row .Digital_marketing p{
-    width: 326px;
+    width: auto;
     color: var(--dark-03, #737373);
     text-align: center;
     font-family: Inter;
@@ -707,7 +707,8 @@ text-align: center;
 
 
 .work_part .container .row .Task-Management-App img{
-    width: auto;
+    width: 100%;
+    text-align: center;
     height: auto;
     flex-shrink: 0;
     border-radius: 20px;
@@ -744,7 +745,7 @@ text-align: center;
 
 
 .work_part .container .row .Saas-Landing-Page-Design img{
-    width: auto;
+    width: 100%;
     height: auto;
     flex-shrink: 0;
     border-radius: 20px;
@@ -782,7 +783,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 .work_part .container .row .App-Design img{
-    width: auto;
+    width: 100%;
     height: auto;
     flex-shrink: 0;
     border-radius: 20px;
@@ -820,6 +821,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 .work_part .container .row .Landing-Page-Design img{
+    width: 100%;
     border-radius: 20px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -854,6 +856,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 .work_part .container .row .Dashboard-Design img{
+    width: 100%;
     border-radius: 20px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -888,6 +891,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 .work_part .container .row .Web-App-Design img{
+    width: 100%;
     border-radius: 20px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }

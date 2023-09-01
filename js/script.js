@@ -13,4 +13,8 @@ $('.main_slide').slick({
     nextArrow:'<a href="#"><i class="fa-solid fa-angle-right"></i></a>',
     centerMode: true,
     centerPadding: '0'
+     
+
+
+
 });

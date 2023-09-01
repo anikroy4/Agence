@@ -1081,6 +1081,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 #slider_part .container{
     width: auto !important;
+    padding-bottom: 227px ;
 }
 
 
@@ -1113,7 +1114,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 #slider_part .container .main_slide{
     position: relative;
-    padding-bottom: 227px ;
+   
 }
 
   
@@ -1161,6 +1162,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 #slider_part .container .main_slide .icon{
     margin-bottom: 30px;
+    color: #F9BD2C;
 }
 #slider_part .container .clint img{
   
@@ -1174,7 +1176,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 #form_part {
     padding: 150px  252px 150px  140px;
-   
+    background: var(--Dark-07, #F3F3F3);
 }
 #form_part .container .row{
     justify-content: space-between;
@@ -1200,7 +1202,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 #form_part .container .row .left .details p{
-    width: auto ;
+    width: 514px; 
     color: var(--dark-03, #7B7B7B);
     font-family: Inter;
     font-size: 16px;
@@ -1212,7 +1214,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 #form_part .container .row .left .details .p1{
     margin-top: 10px;
-    width: auto;
+    width:526px;
     color: var(--dark-03, #737373);
     font-family: Inter;
     font-size: 16px;
@@ -1231,7 +1233,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 
 #form_part .container .row .form form{
-    background: #F4EFEF;
+    background: #FFF;
     width: 100%;
     padding: 61px 43px;
     border-radius: 20px;

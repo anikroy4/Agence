@@ -947,14 +947,14 @@
 
 
     .success_part .container .text h3 {
-        font-size: 20px;
+        font-size: 23px;
         text-align: center;
     }
 
 
 
     .success_part .container .text h2 {
-        font-size: 20px;
+        font-size: 30pxpx;
         width: auto;
         text-align: center;
         padding-bottom: 15px;
@@ -963,7 +963,7 @@
 
 
     .success_part .main {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         row-gap: 15px;
     }
@@ -1047,8 +1047,9 @@
         background: #FFF;
         row-gap: 15px;
         margin-bottom: 50px;
-     
     }
+
+
     .service_part .container .row .hb {
         margin: auto;
         padding: 0;

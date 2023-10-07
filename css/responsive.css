@@ -811,6 +811,7 @@
 
     *.container {
         overflow-x: hidden;
+        max-width: 767.98px;
     }
     
     .navbar {
@@ -972,7 +973,8 @@
     .success_part .main {
         flex-direction: row;
         text-align: center;
-        row-gap: 15px;
+        column-gap: 0px;
+        justify-content: space-evenly;
     }
     
 
@@ -1028,13 +1030,13 @@
  .service_part .container{
     margin: 0;
     padding: 0;
- }
+    }
    
     .service_part .title h2 {
-        font-size: 30px;
-        font-weight: 501;
-        padding-top: 56px;
-        padding-bottom: 15px;
+        font-size: 32px;
+        font-weight: 500;
+        padding-top: 58px;
+        padding-bottom: 16px;
     }
 
 
@@ -1043,7 +1045,7 @@
         width: 100%;
         font-size: 16px;
         line-height: 20px;
-        margin-bottom: 24px;
+        margin-bottom: 25px;
         padding: 15px;
     }
 
@@ -1064,36 +1066,36 @@
 
 
     .service_part .container .row .web_design img {
-        margin-top: 24px;
-        margin-bottom: 17.5px;
+        text-align: center;
+    
     }
 
-
-
     .service_part .container .row .web_design h2 {
-        font-size: 23px;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         padding-bottom: 9px;
     }
 
 
 
     .service_part .container .row .web_design p {
-        color: var(--dark-03, #737373);
-        font-size: 1px;
-        font-weight: 400;
-        line-height: 20px;
         width: auto;
-        padding: -1px;
+        color: var(--dark-03, #737373);
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 13px 11.66px 13px;
     }
 
 
 
     .service_part .container .row .UI-UX-design img {
-        width: auto;
-        height: auto;
-        margin: 41px auto 23.34px
+        text-align: center;
+        
     }
 
 
@@ -1109,11 +1111,14 @@
 
     .service_part .container .row .UI-UX-design p {
         width: auto;
-        font-weight:400;
-        font-size: 14px;
-        line-height: 18px;
-        padding: -1px;
-    }
+        color: var(--dark-03, #737373);
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 13px 11.66px 13px;
 
 
     
@@ -1610,814 +1615,5 @@
         line-height: 18px;
         margin: 0px 0;
     }
-
-
+    }
 }
-
-
-@media (min-width: 768px) and (max-width: 1365.98px) {
-
-    *.container {
-        overflow-x: hidden;
-    }
-        .navbar {
-            top: 0;
-            padding: 13px;
-        }
-    
-    
-    
-        .navbar .navbar-nav {
-            column-gap: 35px;
-        }
-    
-    
-    
-       .navbar-toggler {
-            border: 0;
-        }
-    
-    
-       .navbar-toggler:focus {
-            box-shadow: none;
-            color: #0f89c6 ;
-        }
-       
-    
-        .navbar-collapse{
-            border-radius: 20px;
-            padding: 10px;
-            text-align: center;
-        }
-       
-    
-    
-        .navbar .navbar-nav .nav-item .nav-link {
-            padding: 0;
-            color: #FFF;
-            font-family: Inter;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 18px;
-            padding-right: 14px;
-        }
-    
-    
-        
-        .navbar form{
-            justify-content: center;
-           
-        }
-    
-    
-    
-        .navbar .nav_btn{
-            justify-content: center;
-            padding: 11px 30px;
-            border-radius: 16px;
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 23px;
-            margin-top: 9px;
-        }
-    
-    
-     /* =================== */
-     /* =================== */
-    
-    
-        #banner_part .banner_slider_1,
-        #banner_part .banner_slider_2,
-        #banner_part .banner_slider_3,
-        #banner_part .banner_slider_4{
-            height:687px;
-        }
-    
-    
-    
-        #banner_part .overlay h1 {
-            font-size: 36px;
-            padding-top: 11px;
-            width: auto;
-        }
-    
-    
-    
-    
-        #banner_part .overlay .container .banner_details {
-            font-size: 14px;
-            line-height: 20px;
-            width: auto;
-            padding: 28px 0 36px;
-            
-        }
-         
-    
-    
-    
-        .banner_main_slider ul {
-            bottom: 40px;
-        }
-    
-    
-    
-        .banner_main_slider ul li button {
-            height: 15px;
-            width: 15px;
-            border: 1.5px solid #4758DF;
-        }
-    
-    
-    
-        #banner_part .overlay {
-          
-            padding: 225px 0 0;
-        }
-    
-    
-    
-      /* ====================== */
-      /* ====================== */
-       
-      
-      
-      
-      .success_part {
-            padding-top: 53px;
-        }
-    
-    
-    
-        .success_part .container {
-            border-radius: 20px;
-            background: #E0FFF9;
-            padding: 46px 5px 31px 9px;
-        }
-        
-    
-    
-    
-        .success_part .container .text h3 {
-            font-size: 20px;
-            text-align: center;
-        }
-    
-    
-    
-        .success_part .container .text h2 {
-            font-size: 20px;
-            width: auto;
-            text-align: center;
-            padding-bottom: 15px;
-        }
-    
-    
-    
-        .success_part .main {
-            flex-direction: column;
-            text-align: center;
-            row-gap: 15px;
-        }
-        
-    
-    
-        .success_part .main .satisfication h4 {
-            font-size: 30px;
-            font-weight: 580;
-        }
-    
-    
-    
-        .success_part .main .satisfication p {
-            font-size: 16px;
-            font-weight: 400;
-        }
-    
-    
-    
-        .success_part .main .rating h4 {
-            font-size: 30px;
-            font-weight: 500;
-        }
-    
-    
-    
-        .success_part .main .rating p {
-            
-            font-size: 15px;
-            font-weight: 400;
-        }
-    
-    
-    
-        .success_part .main .report h4 {
-            font-size: 30px;
-            font-weight: 500;
-        }
-    
-    
-    
-        .success_part .main .report p {
-            
-            font-size: 15px;
-            font-weight: 400;
-        }
-    
-    
-    
-     /* ================================= */
-     /* ================================= */
-     /* ================================= */
-        
-     .service_part .container{
-        margin: 0;
-        padding: 0;
-     }
-       
-        .service_part .title h2 {
-            font-size: 30px;
-            font-weight: 501;
-            padding-top: 56px;
-            padding-bottom: 15px;
-        }
-    
-    
-    
-        .service_part .title p {
-            width: 100%;
-            font-size: 14px;
-            line-height: 20px;
-            margin-bottom: 24px;
-            padding: 10px;
-        }
-    
-    
-    
-        .service_part .container .row {
-            border-radius: 20px;
-            background: #FFF;
-            row-gap: 15px;
-            margin-bottom: 50px;
-         
-        }
-        .service_part .container .row .hb {
-            margin: 0;
-            padding: 0;
-        }
-    
-    
-        .service_part .container .row .web_design img {
-            margin-top: 24px;
-            margin-bottom: 17.5px;
-        }
-    
-    
-    
-        .service_part .container .row .web_design h2 {
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 500;
-            padding-bottom: 7px;
-        }
-    
-    
-    
-        .service_part .container .row .web_design p {
-            color: var(--dark-03, #737373);
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 20px;
-            width: auto;
-            padding: -1px;
-        }
-    
-    
-    
-        .service_part .container .row .UI-UX-design img {
-            width: auto;
-            height: auto;
-            margin: 41px auto 23.34px
-        }
-    
-    
-    
-        .service_part .container .row .UI-UX-design h2 {
-            font-size: 18px;
-            font-weight: 500;
-            text-align: center;
-            padding-bottom: 7px;
-        }
-    
-    
-    
-        .service_part .container .row .UI-UX-design p {
-            width: auto;
-            font-weight:400;
-            font-size: 14px;
-            line-height: 18px;
-            padding: -1px;
-        }
-    
-    
-        
-        .service_part .container .row .web_development img {
-            width: auto;
-            height: auto;
-            flex-shrink: 0;
-            text-align: center;
-            margin: 24px auto 17.5px
-        }
-    
-    
-    
-        .service_part .container .row .web_development h2 {
-            font-size: 18px;
-            font-weight: 500;
-            padding-bottom: 7px;
-    
-        }
-       
-    
-        .service_part .container .row .web_development p {
-            color: var(--dark-03, #737373);
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 20px;
-            width: auto;
-        }
-    
-    
-    
-        .service_part .container .row .motion_graphics img {
-            width: auto;
-            height: auto;
-            flex-shrink: 0;
-            margin: 24px auto 17.5px
-        }
-    
-    
-    
-        .service_part .container .row .motion_graphics h2 {
-            font-size: 18px;
-            font-weight: 500;
-            padding-bottom: 7px;
-        }
-    
-    
-    
-        .service_part .container .row .motion_graphics p {
-            color: var(--dark-03, #737373);
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 20px;
-            width: auto;
-    
-        }
-    
-    
-    
-        .service_part .container .row .animation img {
-            width: auto;
-            height: auto;
-            margin: 24px auto 17.5px
-        }
-    
-    
-    
-        .service_part .container .row .animation h2 {
-            font-size: 18px;
-            font-weight: 500;
-        
-        }
-    
-    
-    
-        .service_part .container .row .animation p {
-            color: var(--dark-03, #737373);
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 20px;
-            width: auto;
-        }
-    
-    
-    
-        .service_part .container .row .Digital_marketing img {
-            width: auto;
-            height: auto;
-            margin: 24px auto 17.5px;
-        }
-    
-    
-    
-        .service_part .container .row .Digital_marketing h2 {
-            font-size: 18px;
-            font-weight: 500;
-        }
-    
-    
-    
-        .service_part .container .row .Digital_marketing p {
-            color: var(--dark-03, #737373);
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 20px;
-            width: auto;
-        }
-    
-        
-    
-    
-    
-        /* ====================== */
-        /* ====================== */
-        /* ====================== */
-    
-    
-        .work_part {
-            padding-bottom: 50px;
-        }
-        
-        .work_part .container {
-            margin: 0;
-            padding: 0;
-        }
-    
-    
-    
-        .work_part .title {
-            padding: 50px 0 36px;
-        }
-    
-    
-    
-    
-        .work_part .title h2 {
-            font-size: 30px;
-            font-weight: 500;
-        }
-    
-    
-    
-    
-        .work_part .title p {
-            width: auto;
-            font-size: 14px;
-            font-weight: 300;
-            line-height: 16px;
-            margin-top: 10px;
-            padding: 15px;
-        }
-    
-       
-    
-    
-        .work_part .container .row .col-lg-4 .bg {
-            width: auto;
-            overflow-x: hidden;
-            margin-top: 15px;
-        }
-    
-    
-    
-        .work_part .container .row img {
-            display: flex;
-            justify-content: center;
-            flex-shrink: 0;
-            border-radius: 20px;
-        }
-    
-        
-    
-     
-        .work_part .container .row .Task-Management-App h2 {
-            color: var(--dark-01, #151515);
-            font-size: 15px;
-            font-weight: 500;
-            margin: 20px 0 4px 0;
-        }
-    
-    
-    
-    
-        .work_part .container .row .Task-Management-App p {
-            width: auto;
-            font-size: 14px;
-            line-height: 17px;
-            margin: 0px auto 26px;
-            padding: 10px;
-        }
-    
-    
-    
-    
-        .work_part .container .row .Saas-Landing-Page-Design h2 {
-            font-size: 17px;
-            font-weight: 500;
-            margin-top: 14px;
-        }
-    
-    
-    
-    
-        .work_part .container .row .Saas-Landing-Page-Design p {
-            width: auto;
-            font-size: 14px;
-            line-height: 18px;
-            margin: 00px auto 24px;
-            padding: 10px;
-        }
-    
-        
-    
-    
-        .work_part .container .row .App-Design h2 {
-            font-size: 17px;
-            font-weight: 500;
-            margin-top: 14px;
-        }
-    
-    
-     
-        
-        .work_part .container .row .App-Design p {
-            width: auto;
-            font-size: 14px;
-            line-height: 18px;
-            margin: 0px auto 24px;
-            padding: 10px;
-        }
-    
-    
-    
-    
-    
-        .work_part .container .row .Landing-Page-Design h2 {
-            font-size: 17px;
-            font-weight: 500;
-            margin-top: 14px;
-            padding: 10px;
-            
-        }
-    
-    
-    
-    
-        .work_part .container .row .Landing-Page-Design p {
-            width: auto;
-            text-align: center;
-            font-family: Inter;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 20px;
-            margin: 0px auto 18px;
-            padding: 10px;
-        }
-    
-    
-    
-    
-        .work_part .container .row .Dashboard-Design h2 {
-            font-size: 17px;
-            font-weight: 500;
-            margin-top: 14px;
-        }
-    
-    
-        
-        .work_part .container .row .Dashboard-Design p {
-            width: auto;
-            font-size: 14px;
-            line-height: 18px;
-            margin: 0px auto 18px;
-            padding: 10px;
-        }
-    
-    
-    
-        .work_part .container .row .Web-App-Design h2 {
-            font-size: 17px;
-            font-weight: 500;
-            margin-top: 14px;
-        }
-    
-    
-        .work_part .container .row .Web-App-Design p {
-            width: auto;
-            font-size: 14px;
-            line-height: 18px;
-            padding: 10px;
-            margin: 0px auto 18px;
-        }
-    
-    
-        /* ================================= */
-       /* =================================== */
-       /* =================================== */
-    
-    
-    
-       #agenc-part .title h2 {
-        width: auto;
-        margin: 50px auto 10px auto;
-        font-size: 22px;
-        font-weight: 500;
-        }
-    
-    
-    
-    
-        #agenc-part .title p {
-            width: auto;
-            margin-bottom: 50px;
-            padding: 10px;
-            font-size: 14px;
-            line-height: 15px;
-        }
-        #agenc-part .container .row {
-            text-align: center;
-            padding: 0 !important;
-        }
-    
-    
-        #agenc-part .container .row .top h2 {
-            font-size: 19px;
-            font-weight: 500;
-            margin: 14px 6px auto;
-        }
-    
-    
-        #agenc-part .container .row .top p {
-            font-size: 14px;
-            line-height: 20px;
-        }
-    
-    
-        #agenc-part .container .row .top-bottom {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-    
-    
-        #agenc-part .container .row .top-bottom h2 {
-            font-size: 19px;
-            font-style: normal;
-            font-weight: 500;
-            margin: 14px 6px auto;
-        }
-    
-        #agenc-part .container .row .top-bottom p {
-            font-size: 14px;
-            line-height: 20px;
-        }
-    
-    
-        #agenc-part .container .row .image {
-            width: 100%;
-            
-           
-        }
-    
-    
-        #slider_part{
-            text-align: center;
-        }
-    
-        #slider_part .title h2 {
-            font-size: 22px;
-            margin: 73px auto 12px;
-           
-        }
-        #slider_part .title p {
-            width: auto;
-            font-size: 14px;
-            margin-bottom:0px;
-            padding: 10px;
-        }
-    
-        #slider_part .container {
-            padding-bottom: 97px;
-        }
-    
-        #slider_part .container .main_slide .fa-angle-left {
-            position: absolute;
-            left: 40%;
-            top: 104%;
-        }
-    
-    
-        #slider_part .container .main_slide .fa-angle-right {
-            right: 40%;
-            bottom: -4%;
-        }
-    
-    /* =============================================== */
-    
-        #form_part {
-            padding: 57px 0px 50px 0px;
-        }
-        
-        #form_part .container .row .left .details h4 {
-            font-size: 26px;
-            font-weight: 500;
-            margin: 0px auto;
-        }
-    
-    
-        #form_part .container .row .left .details p {
-            width: auto !important;
-            font-size: 15px;
-            line-height: 18px;
-            margin-top: 10px;
-        }
-    
-        #form_part .container .row .left .details .p1 {
-            width: auto;
-            font-size: 15px;
-            line-height: 18px;
-            padding-bottom: 20px;
-          }
-    
-        #form_part .container .row .form form {
-            padding: 42px 7px;
-        }
-    
-    
-        #form_part .container .row .form form h4 {
-            font-size: 20px;
-            font-weight: 500;
-            margin-bottom: 24px;
-        }
-    
-        #form_part .container .row .form form label {
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 20px;
-        }
-    
-        #form_part .container .row .form form input {
-            font-size: 14px;
-            line-height: 19px;
-            padding: 15px 0px;
-            margin-bottom: 10px;
-        }
-    
-    
-        #form_part .container .row .form form button {
-            padding: 13px 0;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 20px;
-        }
-        /* =========================================== */
-        /* ============================================= */
-    
-        #footer_part .container .row {
-            margin-top: 40px;
-            padding-bottom: 31px;
-           
-        }
-    
-    
-        #footer_part .container .row img {
-            display: flex;
-            justify-content: center;
-            margin: auto;
-        }
-    
-        #footer_part .container .row p {
-            font-size: 14px;
-            line-height: 23px;
-            padding-top: 20px;
-        }
-    
-    
-        #footer_part .container .row .main {
-            display: flex;
-            justify-content: space-between;
-            column-gap: 20px;
-            flex-wrap: wrap;
-        }
-        #footer_part .container .row .main h5 {
-            font-weight: 500;
-            padding-bottom: 20px;
-            padding-top: 20px;
-        }
-    
-    
-        #footer_part .container .row .main li {
-            font-size: 14px;
-            line-height: 25px;
-        }
-    
-        #footer_part .copy_part {
-            font-size: 12px;
-            line-height: 18px;
-            margin: 0px 0;
-        }
-    
-    
-    }
-

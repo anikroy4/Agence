@@ -19,15 +19,15 @@ $('.main_slide').slick({
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
-            infinite: true,
-            dots: true
+            
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 760,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2
+            
           }
         },
         {

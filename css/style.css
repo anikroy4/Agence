@@ -696,10 +696,13 @@ text-align: center;
     border-radius: 20px;
 }
 
+
 .work_part .container .row .col-lg-4 .bg:hover{
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
+
+
 
 .work_part .container .row .col-lg-4 .bg{
     border-radius: 20px;
@@ -707,10 +710,13 @@ text-align: center;
     background: white;
     transition: all linear 0.4s;
 }
+
+
 .work_part .container .row .col-lg-4 p{
     padding: 0px 30px 42px ;
     
 }
+
 
 
 .work_part .container .row .Task-Management-App img{
@@ -1013,7 +1019,7 @@ text-align: center;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin: 20px 0 10px 0; 
+    margin: 20px 0 10px 0;
 }
 
 
@@ -1102,7 +1108,7 @@ text-align: center;
     padding: 54px 59px;
     border-radius: 30px;
     
-} 
+}
 
 
 
@@ -1160,12 +1166,16 @@ text-align: center;
 #slider_part .container .main_slide p{
     margin: 20px 0;
 }
+
+
+
 #slider_part .container .main_slide .icon{
     margin-bottom: 30px;
     color: #F9BD2C;
 }
+
+
 #slider_part .container .clint img{
-  
    margin-right: 20px;
 }
 
@@ -1196,6 +1206,7 @@ text-align: center;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 177px;
     margin-bottom: 20px;
 }
 
@@ -1210,7 +1221,7 @@ text-align: center;
     font-weight: 400;
     line-height: 26px;
 }
-s
+
 
 #form_part .container .row  .details .p1{
     margin-top: 10px;
@@ -1273,7 +1284,7 @@ s
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; 
+    line-height: 26px;
     padding: 19px 23px;
     border-radius: 10px;
     border: 1px solid var(--dark-06, #E8E8E8);
@@ -1294,7 +1305,7 @@ s
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 26px; 
+    line-height: 26px;
 }
 
 
